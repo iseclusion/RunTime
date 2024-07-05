@@ -5,7 +5,7 @@
 }
 
 .container {
-  min-width: 950px;
+  max-width: 950px;
   margin: 0 auto;
 }
 a {
@@ -15,3 +15,7 @@ a {
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
+@import "media/media_1200";
+@import "media/media_991";
+@import "media/media_767";
+@import "media/media_575";
