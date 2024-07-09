@@ -1,0 +1,57 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+  .header {
+    &__logo {
+      width: 220px;
+      img {
+        width: 100%;
+      }
+    }
+    &__phone {
+      font-size: 16px;
+    }
+  }
+  .button {
+    width: 140px;
+    height: 28px;
+    &_main {
+      margin-top: 63px;
+      width: 250px;
+      height: 40px;
+      font-size: 14px;
+    }
+  }
+  .promo {
+    min-height: 450px;
+    padding: 16px 0 81px 0;
+    &__wrapper {
+      margin-top: 60px;
+    }
+    &__header {
+      font-size: 35px;
+      line-height: 30px;
+    }
+    &__subheader {
+      margin-top: 10px;
+      font-size: 18px;
+      line-height: 18px;
+    }
+    &__icons {
+      margin-top: 40px;
+      width: 400px;
+    }
+    &__icon {
+      width: 80px;
+      font-size: 10px;
+      img {
+        margin-bottom: 5px;
+      }
+    }
+    &__link {
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  }
+}
