@@ -58,4 +58,10 @@
       margin-top: 10px;
     }
   }
+  .carousel {
+    padding: 45px 0;
+    &__inner {
+      width: 450px;
+    }
+  }
 }
