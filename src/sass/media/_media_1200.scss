@@ -26,6 +26,11 @@
       width: 300px;
       height: 55px;
     }
+    &_mini {
+      width: 115px;
+      height: 40px;
+      font-size: 14px;
+    }
   }
   .promo {
     min-height: 450px;
@@ -69,6 +74,33 @@
   .title {
     &__left {
       font-size: 30px;
+    }
+  }
+  .catalog {
+    &-item {
+      width: 280px;
+      &__price {
+        font-size: 18px;
+      }
+      &__old-price {
+        font-size: 13px;
+      }
+    }
+  }
+  .feed {
+    padding-bottom: 65px;
+    &__item {
+      margin-top: 90px;
+      &:nth-child(2) {
+        margin-top: 60px;
+      }
+    }
+    &__text {
+      margin-left: 53px;
+      padding-right: 55px;
+    }
+    &__descr {
+      margin-top: 8px;
     }
   }
 }

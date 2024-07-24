@@ -138,4 +138,25 @@
       background-color: gray;
     }
   }
+  .catalog {
+    &__content {
+      justify-content: center;
+    }
+  }
+  .feed {
+    padding-bottom: 60px;
+    &__item {
+      margin-top: 85px;
+      &:nth-child(2) {
+        margin-top: 55px;
+      }
+    }
+    &__text {
+      margin-left: 50px;
+      padding-right: 52px;
+    }
+    &__descr {
+      margin-top: 6px;
+    }
+  }
 }
