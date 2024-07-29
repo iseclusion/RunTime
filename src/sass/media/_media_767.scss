@@ -204,4 +204,33 @@
       margin-top: 5px;
     }
   }
+  .footer {
+    height: 500px;
+    iframe {
+      height: 500px;
+    }
+    &__info {
+      width: 250px;
+      height: 150px;
+      padding: 36px 55px 47px 55px;
+    }
+    &__addr {
+      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+    &__phone {
+      font-size: 14px;
+      line-height: 14px;
+      margin-bottom: 12px;
+    }
+    &__social-item {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+      img {
+        height: 15px;
+      }
+    }
+  }
 }

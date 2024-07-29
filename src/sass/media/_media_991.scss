@@ -159,4 +159,33 @@
       margin-top: 6px;
     }
   }
+  .footer {
+    height: 500px;
+    &__map {
+      height: 500px;
+    }
+    &__info {
+      width: 350px;
+      height: 200px;
+      padding: 46px 65px 57px 65px;
+    }
+    &__addr {
+      margin-bottom: 25px;
+      font-size: 16px;
+      line-height: 16px;
+    }
+    &__phone {
+      font-size: 16px;
+      line-height: 16px;
+      margin-bottom: 18px;
+    }
+    &__social-item {
+      width: 45px;
+      height: 45px;
+      margin: 0 12px;
+      img {
+        height: 20px;
+      }
+    }
+  }
 }

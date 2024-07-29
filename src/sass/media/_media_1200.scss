@@ -103,4 +103,33 @@
       margin-top: 8px;
     }
   }
+  .footer {
+    height: 600px;
+    iframe {
+      height: 600px;
+    }
+    &__info {
+      width: 450px;
+      height: 250px;
+      padding: 49px 67px 59px 67px;
+    }
+    &__addr {
+      margin-bottom: 34px;
+      font-size: 18px;
+      line-height: 18px;
+    }
+    &__phone {
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 36px;
+    }
+    &__social-item {
+      width: 48px;
+      height: 48px;
+      margin: 0 13px;
+      img {
+        height: 25px;
+      }
+    }
+  }
 }
