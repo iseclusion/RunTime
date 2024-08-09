@@ -125,6 +125,15 @@
         margin-bottom: 10px;
       }
     }
+    &_mt25 {
+      margin-top: 18px;
+      width: 220px;
+      button {
+        width: 220px;
+        height: 35px;
+        font-size: 11px;
+      }
+    }
   }
   .carousel {
     padding: 51px 0;
@@ -231,6 +240,21 @@
       img {
         height: 15px;
       }
+    }
+  }
+  .modal {
+    width: 280px;
+    min-height: 280px;
+    padding: 30px 32px 32px 32px;
+    &__subtitle {
+      font-size: 13px;
+    }
+    &__descr {
+      font-size: 10px;
+    }
+    &__close {
+      font-size: 30px;
+      line-height: 16px;
     }
   }
 }

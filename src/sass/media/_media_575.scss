@@ -1,14 +1,10 @@
 @media (max-width: 575px) {
   .container {
-    // max-width: 400px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    max-width: 350px;
   }
   .header {
     &__logo {
-      width: 100px;
+      width: 120px;
       img {
         width: 100%;
       }
@@ -78,6 +74,17 @@
     padding: 45px 0;
     &__inner {
       width: 300px;
+    }
+  }
+  .feed-form {
+    &_mt25 {
+      margin-top: 16px;
+      width: 200px;
+      button {
+        width: 200px;
+        font-size: 10px;
+        height: 30px;
+      }
     }
   }
   .catalog {
@@ -150,6 +157,22 @@
     height: 400px;
     iframe {
       height: 400px;
+    }
+  }
+  .modal {
+    width: 250px;
+    min-height: 250px;
+    padding: 26px 28px 28px 28px;
+    &__subtitle {
+      font-size: 12px;
+    }
+    &__descr {
+      font-size: 9px;
+    }
+    &__close {
+      font-size: 30px;
+      line-height: 16px;
+      right: -28px;
     }
   }
 }
